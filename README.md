@@ -3,6 +3,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# App Features:
+1. Responsive
+2. Real-time response
+3. Group chat available
+
 App Link: https://messenger-chat-app-ff24b.web.app/
 
 ## Available Scripts
