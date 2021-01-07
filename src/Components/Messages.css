@@ -1,0 +1,15 @@
+.message {
+  margin: 10px;
+  width: fit-content;
+}
+.message_user {
+  text-align: left !important;
+  /* color: white; */
+  margin-left: auto;
+}
+.message_userCard {
+  background-color: #0b81ff;
+}
+.message_guestCard {
+  background-color: gainsboro;
+}

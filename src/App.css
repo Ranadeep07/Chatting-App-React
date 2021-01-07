@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+h1 {
+  background: -webkit-linear-gradient(rgb(228, 18, 182), rgb(5, 29, 247));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.input_message {
+  width: 50%;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 20px;
+  font-size: 17.5px;
+  outline: none;
+}
+.btn {
+  padding: 13px;
+  width: 8%;
+  margin: 0 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  background: -webkit-linear-gradient(rgb(228, 18, 182), rgb(5, 29, 247));
+  color: white;
+}
+@media only screen and (max-width: 800px) {
+  .send_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .input_message {
+    width: auto;
+  }
+  .btn {
+    width: auto;
+    margin-top: 5px;
+  }
+}
